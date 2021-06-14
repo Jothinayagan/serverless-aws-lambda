@@ -1,0 +1,26 @@
+{
+  "name": "serverless-aws-lambda",
+  "version": "1.0.0",
+  "description": "serverless-aws-lambda",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jothinayagan/serverless-aws-lambda.git"
+  },
+  "author": "Jothinayagan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jothinayagan/serverless-aws-lambda/issues"
+  },
+  "homepage": "https://github.com/Jothinayagan/serverless-aws-lambda#readme",
+  "dependencies": {
+    "aws-sdk": "^2.927.0",
+    "csv-write-stream": "^2.0.0",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^10.0.0",
+    "json-2-csv": "^3.14.1"
+  }
+}
